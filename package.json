@@ -1,0 +1,23 @@
+{
+  "name": "koa-json-suit",
+  "description": "Dress up your JSON API output and output errors consistently",
+  "version": "1.0.0",
+  "repository": "https://github.com/liamdawson/koa-json-suit.git",
+  "keywords": [
+    "koa",
+    "json",
+    "suit",
+    "web",
+    "error",
+    "api"
+  ],
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "Liam Dawson",
+      "email": "liam@liamdawson.me",
+      "web": "http://liamdawson.me/"
+    }
+  ],
+  "license": "ISC"
+}
