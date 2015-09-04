@@ -28,6 +28,10 @@ given default settings, will respond with:
       
 ## Configuration
 
+### pretty
+
+If `true`, all plain object responses get converted to 2 space indented JSON.
+
 ### catchErrors
 
 If `true`, all downstream errors are caught and returned as if they were

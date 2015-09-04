@@ -40,10 +40,10 @@
 
         if (obj instanceof Error) {
           this.response.status = status ? status : config.errorCode(obj);
-          this.body = config.errorTransform(obj, this.response.status);
+          this.body = JSON.stringify(config.errorTransform(obj, this.response.status), null, (config.pretty) ? 2 : null);
         } else {
           this.response.status = status ? status : 200;
-          this.body = obj;
+          this.body = JSON.stringify(obj, null, (config.pretty) ? 2 : null);
         }
       };
 
@@ -59,3 +59,4 @@
     };
   };
 }());
+
