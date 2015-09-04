@@ -1,7 +1,7 @@
 {
   "name": "koa-json-suit",
   "description": "Dress up your JSON API output and output errors consistently",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "https://github.com/liamdawson/koa-json-suit.git",
   "keywords": [
     "koa",
